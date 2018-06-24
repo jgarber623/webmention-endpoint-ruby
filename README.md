@@ -27,7 +27,7 @@ If you're using [Bundler](https://bundler.io), add webmention-endpoint-ruby to y
 ```ruby
 source 'https://rubygems.org'
 
-gem 'webmention-endpoint', git: 'https://github.com/jgarber623/webmention-endpoint-ruby'
+gem 'webmention-endpoint'
 ```
 
 …and hop over to your command prompt and run…
