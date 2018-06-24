@@ -16,7 +16,9 @@
 
 ## Getting Started
 
+Before installing and using webmention-endpoint-discovery-ruby, you'll want to have [Ruby](https://www.ruby-lang.org) 2.4 (or newer) installed. It's recommended that you use a Ruby version managment tool like [rbenv](https://github.com/rbenv/rbenv), [chruby](https://github.com/postmodern/chruby), or [rvm](https://github.com/rvm/rvm).
 
+webmention-endpoint-discovery-ruby is developed using Ruby 2.4.4 and is additionally tested against Ruby 2.5.1 using [Travis CI](https://travis-ci.org/indieweb/webmention-endpoint-discovery-ruby).
 
 ## Installation
 
@@ -74,7 +76,9 @@ You'll want to make sure your code gracefully handles these exceptions. For more
 
 ## Acknowledgments
 
+webmention-endpoint-discovery-ruby wouldn't exist without Webmention and the hard work put in by everyone involved in the [IndieWeb](https://indieweb.org) movement. Additionally, the comprehensive endpoint discovery test suite at [webmention.rocks](https://webmention.rocks) was invaluable in the development of this Ruby gem.
 
+webmention-endpoint-discovery-ruby is written and maintained by [Jason Garber](https://sixtwothree.org).
 
 ## License
 
