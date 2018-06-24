@@ -74,6 +74,10 @@ You'll want to make sure your code gracefully handles these exceptions. For more
 - [sporkmonger/addressable](https://github.com/sporkmonger/addressable) – Source code for the Addressable Ruby gem
 - [httprb/http](https://github.com/httprb/http) – Source code for the HTTP Ruby gem
 
+## Contributing
+
+Interested in helping improve webmention-endpoint-discovery-ruby? Awesome! Your help is greatly appreciated. See [CONTRIBUTING.md](https://github.com/jgarber623/blob/master/CONTRIBUTING.md) for details.
+
 ## Acknowledgments
 
 webmention-endpoint-discovery-ruby wouldn't exist without Webmention and the hard work put in by everyone involved in the [IndieWeb](https://indieweb.org) movement. Additionally, the comprehensive endpoint discovery test suite at [webmention.rocks](https://webmention.rocks) was invaluable in the development of this Ruby gem.
