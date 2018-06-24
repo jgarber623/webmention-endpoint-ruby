@@ -1,19 +1,19 @@
 lib = File.expand_path('lib', __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
-require 'webmention/endpoint_discovery/version'
+require 'webmention/endpoint/version'
 
 Gem::Specification.new do |spec|
   spec.required_ruby_version = ['>= 2.4', '< 2.6']
 
-  spec.name          = 'webmention-endpoint-discovery'
-  spec.version       = Webmention::EndpointDiscovery::VERSION
+  spec.name          = 'webmention-endpoint'
+  spec.version       = Webmention::Endpoint::VERSION
   spec.authors       = ['Jason Garber']
   spec.email         = ['jason@sixtwothree.org']
 
   spec.summary       = 'Discover a URL’s Webmention endpoint.'
   spec.description   = spec.summary
-  spec.homepage      = 'https://github.com/jgarber623/webmention-endpoint-discovery-ruby'
+  spec.homepage      = 'https://github.com/jgarber623/webmention-endpoint-ruby'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(bin|spec)/}) }

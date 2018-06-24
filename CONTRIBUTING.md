@@ -1,6 +1,6 @@
-# Contributing to webmention-endpoint-discovery-ruby
+# Contributing to webmention-endpoint-ruby
 
-There are a couple ways you can help improve webmention-endpoint-discovery-ruby:
+There are a couple ways you can help improve webmention-endpoint-ruby:
 
 1. Fix an existing [issue][issues] and submit a [pull request][pulls].
 1. Review open [pull requests][pulls].
@@ -8,9 +8,9 @@ There are a couple ways you can help improve webmention-endpoint-discovery-ruby:
 
 ## Getting Started
 
-webmention-endpoint-discovery-ruby is developed using Ruby 2.4.4 and is additionally tested against Ruby 2.5.1 using [Travis CI](https://travis-ci.com/jgarber623/webmention-endpoint-discovery-ruby).
+webmention-endpoint-ruby is developed using Ruby 2.4.4 and is additionally tested against Ruby 2.5.1 using [Travis CI](https://travis-ci.com/jgarber623/webmention-endpoint-ruby).
 
-Before making changes to webmention-endpoint-discovery-ruby, you'll want to install Ruby 2.4.4. It's recommended that you use a Ruby version managment tool like [rbenv](https://github.com/rbenv/rbenv), [chruby](https://github.com/postmodern/chruby), or [rvm](https://github.com/rvm/rvm). Once you've installed Ruby 2.4.4 using your method of choice, install the project's gems by running:
+Before making changes to webmention-endpoint-ruby, you'll want to install Ruby 2.4.4. It's recommended that you use a Ruby version managment tool like [rbenv](https://github.com/rbenv/rbenv), [chruby](https://github.com/postmodern/chruby), or [rvm](https://github.com/rvm/rvm). Once you've installed Ruby 2.4.4 using your method of choice, install the project's gems by running:
 
 ```sh
 bundle install
@@ -33,5 +33,5 @@ Code formatting conventions are defined in the `.editorconfig` file which uses t
 
 Your bug fix or feature addition won't be rejected if it runs afoul of any (or all) of these guidelines, but following the guidelines will definitely make everyone's lives a little easier.
 
-[issues]: https://github.com/indieweb/webmention-endpoint-discovery-ruby/issues
-[pulls]: https://github.com/indieweb/webmention-endpoint-discovery-ruby/pulls
+[issues]: https://github.com/indieweb/webmention-endpoint-ruby/issues
+[pulls]: https://github.com/indieweb/webmention-endpoint-ruby/pulls
