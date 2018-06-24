@@ -4,7 +4,7 @@
 
 [![Gem](https://img.shields.io/gem/v/webmention-endpoint-discovery.svg?style=for-the-badge)](https://rubygems.org/gems/webmention-endpoint-discovery)
 [![Downloads](https://img.shields.io/gem/dt/webmention-endpoint-discovery.svg?style=for-the-badge)](https://rubygems.org/gems/webmention-endpoint-discovery)
-[![Build](https://img.shields.io/travis/jgarber623/webmention-endpoint-discovery-ruby/master.svg?style=for-the-badge)](https://travis-ci.org/jgarber623/webmention-endpoint-discovery-ruby)
+[![Build](https://img.shields.io/travis/jgarber623/webmention-endpoint-discovery-ruby/master.svg?style=for-the-badge)](https://travis-ci.com/jgarber623/webmention-endpoint-discovery-ruby)
 [![Maintainability](https://img.shields.io/codeclimate/maintainability/jgarber623/webmention-endpoint-discovery-ruby.svg?style=for-the-badge)](https://codeclimate.com/github/jgarber623/webmention-endpoint-discovery-ruby)
 [![Coverage](https://img.shields.io/codeclimate/c/jgarber623/webmention-endpoint-discovery-ruby.svg?style=for-the-badge)](https://codeclimate.com/github/jgarber623/webmention-endpoint-discovery-ruby/code)
 
