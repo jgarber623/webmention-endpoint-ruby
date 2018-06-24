@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Jason Garber']
   spec.email         = ['jason@sixtwothree.org']
 
-  spec.summary       = 'Discover a given URL’s Webmention endpoint.'
+  spec.summary       = 'Discover a URL’s Webmention endpoint.'
   spec.description   = spec.summary
   spec.homepage      = 'https://github.com/jgarber623/webmention-endpoint-discovery-ruby'
   spec.license       = 'MIT'

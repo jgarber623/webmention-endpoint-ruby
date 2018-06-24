@@ -1,6 +1,6 @@
 # webmention-endpoint-discovery-ruby
 
-**A Ruby gem for discovering a given URL's [Webmention](https://indieweb.org/Webmention) endpoint.**
+**A Ruby gem for discovering a URL's [Webmention](https://indieweb.org/Webmention) endpoint.**
 
 [![Gem](https://img.shields.io/gem/v/webmention-endpoint-discovery.svg?style=for-the-badge)](https://rubygems.org/gems/webmention-endpoint-discovery)
 [![Downloads](https://img.shields.io/gem/dt/webmention-endpoint-discovery.svg?style=for-the-badge)](https://rubygems.org/gems/webmention-endpoint-discovery)
