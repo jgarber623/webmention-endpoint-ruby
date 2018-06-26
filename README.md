@@ -5,6 +5,7 @@
 [![Gem](https://img.shields.io/gem/v/webmention-endpoint.svg?style=for-the-badge)](https://rubygems.org/gems/webmention-endpoint)
 [![Downloads](https://img.shields.io/gem/dt/webmention-endpoint.svg?style=for-the-badge)](https://rubygems.org/gems/webmention-endpoint)
 [![Build](https://img.shields.io/travis/com/jgarber623/webmention-endpoint-ruby/master.svg?style=for-the-badge)](https://travis-ci.com/jgarber623/webmention-endpoint-ruby)
+[![Dependencies](https://img.shields.io/depfu/jgarber623/webmention-endpoint-ruby.svg?style=for-the-badge)](https://depfu.com/github/jgarber623/webmention-endpoint-ruby)
 [![Maintainability](https://img.shields.io/codeclimate/maintainability/jgarber623/webmention-endpoint-ruby.svg?style=for-the-badge)](https://codeclimate.com/github/jgarber623/webmention-endpoint-ruby)
 [![Coverage](https://img.shields.io/codeclimate/c/jgarber623/webmention-endpoint-ruby.svg?style=for-the-badge)](https://codeclimate.com/github/jgarber623/webmention-endpoint-ruby/code)
 
