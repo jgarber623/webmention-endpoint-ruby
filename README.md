@@ -80,17 +80,17 @@ puts discoverer.response # returns HTTP::Response
 
 ### Exception Handling
 
-There are several exceptions that may be raised by webmention-endpoint-ruby's underlying dependencies:
+There are several exceptions that may be raised by webmention-endpoint-ruby's underlying dependencies. These errors are raised as subclasses of `Webmention::Endpoint::Error` (which itself is a subclass of `StandardError`).
 
-- `Addressable::URI::InvalidURIError`
-- `HTTP::ConnectionError`
-- `HTTP::TimeoutError`
-- `HTTP::Redirector::TooManyRedirectsError`
+From [sporkmonger/addressable](https://github.com/sporkmonger/addressable):
 
-You'll want to make sure your code gracefully handles these exceptions. For more on each of these exceptions, see:
+- `Webmention::Endpoint::InvalidURIError`
 
-- [sporkmonger/addressable](https://github.com/sporkmonger/addressable) – Source code for the Addressable Ruby gem
-- [httprb/http](https://github.com/httprb/http) – Source code for the HTTP Ruby gem
+From [httprb/http](https://github.com/httprb/http):
+
+- `Webmention::Endpoint::ConnectionError`
+- `Webmention::Endpoint::TimeoutError`
+- `Webmention::Endpoint::TooManyRedirectsError`
 
 ## Contributing
 

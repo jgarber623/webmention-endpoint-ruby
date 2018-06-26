@@ -3,6 +3,7 @@ require 'http'
 require 'nokogiri'
 
 require 'webmention/endpoint/version'
+require 'webmention/endpoint/error'
 require 'webmention/endpoint/discover'
 
 module Webmention

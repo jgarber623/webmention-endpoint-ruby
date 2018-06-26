@@ -25,6 +25,8 @@ module Webmention
 
         @url = url
         @uri = Addressable::URI.parse(url)
+      rescue Addressable::URI::InvalidURIError => error
+        raise InvalidURIError, error
       end
 
       def endpoint
@@ -36,6 +38,12 @@ module Webmention
           connect: 10,
           read: 10
         ).get(uri)
+      rescue HTTP::ConnectionError => error
+        raise ConnectionError, error
+      rescue HTTP::TimeoutError => error
+        raise TimeoutError, error
+      rescue HTTP::Redirector::TooManyRedirectsError => error
+        raise TooManyRedirectsError, error
       end
 
       private
@@ -49,6 +57,8 @@ module Webmention
         return relative if relative_uri.absolute?
 
         (base_uri + relative_uri).to_s
+      rescue Addressable::URI::InvalidURIError => error
+        raise InvalidURIError, error
       end
 
       def endpoint_from_body

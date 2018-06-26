@@ -8,7 +8,13 @@ describe Webmention::Endpoint do
       let(:message) { 'url must be a String (given NilClass)' }
 
       it 'raises an ArgumentError' do
-        expect { described_class.discover(nil) }.to raise_error(ArgumentError, message)
+        expect { described_class.discover(nil) }.to raise_error(Webmention::Endpoint::ArgumentError, message)
+      end
+    end
+
+    context 'when given an invalid URL' do
+      it 'raises an InvalidURIError' do
+        expect { described_class.discover('http:') }.to raise_error(Webmention::Endpoint::InvalidURIError)
       end
     end
 
