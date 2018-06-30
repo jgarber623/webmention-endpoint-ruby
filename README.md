@@ -95,7 +95,7 @@ From [httprb/http](https://github.com/httprb/http):
 
 ## Contributing
 
-Interested in helping improve webmention-endpoint-ruby? Awesome! Your help is greatly appreciated. See [CONTRIBUTING.md](https://github.com/jgarber623/blob/master/CONTRIBUTING.md) for details.
+Interested in helping improve webmention-endpoint-ruby? Awesome! Your help is greatly appreciated. See [CONTRIBUTING.md](https://github.com/jgarber623/webmention-endpoint-ruby/blob/master/CONTRIBUTING.md) for details.
 
 ## Acknowledgments
 
