@@ -6,13 +6,13 @@ module Webmention
         user_agent: 'Webmention Endpoint Discovery (https://rubygems.org/gems/webmention-endpoint)'
       }.freeze
 
-      # Liberal pattern matching a string of text between angle brackets
-      # https://tools.ietf.org/html/rfc5988#section-5.1
-      REGEXP_TARGET_URI_PATTERN = /^<(.*)>;/
-
       # Ultra-orthodox pattern matching allowed values in Link header `rel` parameter
       # https://tools.ietf.org/html/rfc8288#section-3.3
       REGEXP_REG_REL_TYPE_PATTERN = '[a-z\d][a-z\d\-\.]*'.freeze
+
+      # Liberal pattern matching a string of text between angle brackets
+      # https://tools.ietf.org/html/rfc5988#section-5.1
+      REGEXP_TARGET_URI_PATTERN = /^<(.*)>;/
 
       # Ultra-orthodox pattern matching Link header `rel` parameter including a `webmention` value
       # https://www.w3.org/TR/webmention/#sender-discovers-receiver-webmention-endpoint-p-1
