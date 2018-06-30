@@ -33,5 +33,5 @@ Code formatting conventions are defined in the `.editorconfig` file which uses t
 
 Your bug fix or feature addition won't be rejected if it runs afoul of any (or all) of these guidelines, but following the guidelines will definitely make everyone's lives a little easier.
 
-[issues]: https://github.com/indieweb/webmention-endpoint-ruby/issues
-[pulls]: https://github.com/indieweb/webmention-endpoint-ruby/pulls
+[issues]: https://github.com/jgarber623/webmention-endpoint-ruby/issues
+[pulls]: https://github.com/jgarber623/webmention-endpoint-ruby/pulls
