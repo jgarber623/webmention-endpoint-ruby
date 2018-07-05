@@ -30,7 +30,11 @@ module Webmention
       end
 
       def endpoint
-        @endpoint ||= absolutize(base: url, relative: (endpoint_from_headers || endpoint_from_body)) || nil
+        return unless endpoint_from_http_request
+
+        @endpoint ||= Absolutely.to_absolute_uri(base: url, relative: endpoint_from_http_request)
+      rescue Absolutely::InvalidURIError => error
+        raise InvalidURIError, error
       end
 
       def response
@@ -47,19 +51,6 @@ module Webmention
       end
 
       private
-
-      def absolutize(base:, relative:)
-        return unless relative
-
-        base_uri = Addressable::URI.parse(base)
-        relative_uri = Addressable::URI.parse(relative)
-
-        return relative if relative_uri.absolute?
-
-        (base_uri + relative_uri).to_s
-      rescue Addressable::URI::InvalidURIError => error
-        raise InvalidURIError, error
-      end
 
       def endpoint_from_body
         return unless response.mime_type == 'text/html'
@@ -88,6 +79,10 @@ module Webmention
         endpoint_match_data = webmention_header.match(REGEXP_TARGET_URI_PATTERN)
 
         return endpoint_match_data[1] if endpoint_match_data
+      end
+
+      def endpoint_from_http_request
+        @endpoint_from_http_request ||= endpoint_from_headers || endpoint_from_body || nil
       end
     end
   end

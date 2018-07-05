@@ -1,3 +1,4 @@
+require 'absolutely'
 require 'addressable/uri'
 require 'http'
 require 'nokogiri'
