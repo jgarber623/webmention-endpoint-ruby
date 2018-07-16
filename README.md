@@ -11,7 +11,7 @@
 
 ## Key Features
 
-- Compliant with [Section 3.1.2](https://www.w3.org/TR/webmention/#sender-discovers-receiver-webmention-endpoint) of [the W3C's Webmention specification](https://www.w3.org/TR/webmention/).
+- Compliant with [Section 3.1.2](https://www.w3.org/TR/webmention/#sender-discovers-receiver-webmention-endpoint) of [the W3C's Webmention Recommendation](https://www.w3.org/TR/webmention/).
 - Passes all Endpoint Discovery tests on [webmention.rocks](https://webmention.rocks).
 - Supports Ruby 2.4 and newer.
 
@@ -51,7 +51,7 @@ endpoint = Webmention::Endpoint.discover('https://webmention.rocks/test/1')
 puts endpoint # returns String: 'https://webmention.rocks/test/1/webmention'
 ```
 
-This example will search `https://webmention.rocks/test/1` for a valid Webmention endpoint in accordance with the rules described in [the W3C's Webmention specification](https://www.w3.org/TR/webmention/#sender-discovers-receiver-webmention-endpoint). In this case, the program returns a string: `https://webmention.rocks/test/1/webmention`.
+This example will search `https://webmention.rocks/test/1` for a valid Webmention endpoint in accordance with the rules described in [the W3C's Webmention Recommendation](https://www.w3.org/TR/webmention/#sender-discovers-receiver-webmention-endpoint). In this case, the program returns a string: `https://webmention.rocks/test/1/webmention`.
 
 If no endpoint is discovered at the provided URL, the program will return `nil`:
 
