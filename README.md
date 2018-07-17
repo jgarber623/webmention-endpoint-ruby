@@ -65,18 +65,15 @@ puts endpoint.nil? # returns Boolean: true
 
 ### Advanced Usage
 
-Should the need arise, you may work directly with the `Webmention::Endpoint::Discover` class:
+Should the need arise, you may work directly with the `Webmention::Endpoint::Client` class:
 
 ```ruby
 require 'webmention/endpoint'
 
-discoverer = Webmention::Endpoint::Discover.new('https://webmention.rocks/test/1')
+client = Webmention::Endpoint::Client.new('https://webmention.rocks/test/1')
 
-puts discoverer.url      # returns String: 'https://webmention.rocks/test/1'
-puts discoverer.endpoint # returns String: 'https://webmention.rocks/test/1/webmention'
-
-puts discoverer.uri      # returns Addressable::URI
-puts discoverer.response # returns HTTP::Response
+puts client.response # returns HTTP::Response
+puts client.endpoint # returns String: 'https://webmention.rocks/test/1/webmention'
 ```
 
 ### Exception Handling
