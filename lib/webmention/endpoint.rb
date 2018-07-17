@@ -5,12 +5,14 @@ require 'nokogiri'
 
 require 'webmention/endpoint/version'
 require 'webmention/endpoint/error'
+require 'webmention/endpoint/client'
 require 'webmention/endpoint/discover'
+require 'webmention/endpoint/response'
 
 module Webmention
   module Endpoint
     def self.discover(url)
-      Discover.new(url).endpoint
+      Client.new(url).endpoint
     end
   end
 end
