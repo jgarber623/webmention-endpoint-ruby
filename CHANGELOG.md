@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.0 / 2018-07-17
+
+- Adds new `Webmention::Endpoint::Client` and `Webmention::Endpoint::Response` classes and refactors `Webmention::Endpoint::Discover` API ([a05d041](https://github.com/jgarber623/webmention-endpoint-ruby/commit/a05d041)).
+- Updates specs ([706f39b](https://github.com/jgarber623/webmention-endpoint-ruby/commit/706f39b)) and documentation ([7110b8c](https://github.com/jgarber623/webmention-endpoint-ruby/commit/7110b8c)).
+
 ## 0.3.1 / 2018-07-05
 
 - Updates [Absolutely](https://github.com/jgarber623/absolutely) to v1.1.0 ([4a62800](https://github.com/jgarber623/webmention-endpoint-ruby/commit/4a62800)).
