@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.1 / 2018-07-29
+
+- Raise an `ArgumentError` when `Client` instantiated with non-absolute URI ([64f161e](https://github.com/jgarber623/webmention-endpoint-ruby/commit/64f161e)).
+
 ## 1.0.0 / 2018-07-17
 
 - Adds new `Webmention::Endpoint::Client` and `Webmention::Endpoint::Response` classes and refactors `Webmention::Endpoint::Discover` API ([a05d041](https://github.com/jgarber623/webmention-endpoint-ruby/commit/a05d041)).
