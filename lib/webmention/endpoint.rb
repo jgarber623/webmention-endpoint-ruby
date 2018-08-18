@@ -6,7 +6,6 @@ require 'nokogiri'
 require 'webmention/endpoint/version'
 require 'webmention/endpoint/error'
 require 'webmention/endpoint/client'
-require 'webmention/endpoint/discover'
 require 'webmention/endpoint/request'
 
 module Webmention
