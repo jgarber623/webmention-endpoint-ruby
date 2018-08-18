@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.0.0 / 2018-08-18
+
+- Renames `Webmention::Endpoint::Response` class to `Webmention::Endpoint::Request` ([db485f3](https://github.com/jgarber623/webmention-endpoint-ruby/commit/db485f3)).
+- Removes `Webmention::Endpoint::Discover` class and moves its functionality to `Webmention::Endpoint::Client` ([a9ff0a9](https://github.com/jgarber623/webmention-endpoint-ruby/commit/a9ff0a9)).
+
 ## 1.0.1 / 2018-07-29
 
 - Raise an `ArgumentError` when `Client` instantiated with non-absolute URI ([64f161e](https://github.com/jgarber623/webmention-endpoint-ruby/commit/64f161e)).
