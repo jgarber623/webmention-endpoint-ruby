@@ -1,6 +1,6 @@
 module Webmention
   module Endpoint
-    class Response
+    class Request
       HTTP_HEADERS_OPTS = {
         accept: '*/*',
         user_agent: 'Webmention Endpoint Discovery (https://rubygems.org/gems/webmention-endpoint)'

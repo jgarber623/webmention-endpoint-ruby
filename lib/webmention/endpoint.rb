@@ -7,7 +7,7 @@ require 'webmention/endpoint/version'
 require 'webmention/endpoint/error'
 require 'webmention/endpoint/client'
 require 'webmention/endpoint/discover'
-require 'webmention/endpoint/response'
+require 'webmention/endpoint/request'
 
 module Webmention
   module Endpoint
