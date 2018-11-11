@@ -7,11 +7,11 @@ module Webmention
 
       # Liberal pattern matching a string of text between angle brackets
       # https://tools.ietf.org/html/rfc5988#section-5.1
-      REGEXP_TARGET_URI_PATTERN = /^<(.*)>;/
+      REGEXP_TARGET_URI_PATTERN = /^<(.*)>;/.freeze
 
       # Ultra-orthodox pattern matching Link header `rel` parameter including a `webmention` value
       # https://www.w3.org/TR/webmention/#sender-discovers-receiver-webmention-endpoint-p-1
-      REGEXP_WEBMENTION_REL_PATTERN = /(?:;|\s)rel="?(?:#{REGEXP_REG_REL_TYPE_PATTERN}+\s)?webmention(?:\s#{REGEXP_REG_REL_TYPE_PATTERN})?"?/
+      REGEXP_WEBMENTION_REL_PATTERN = /(?:;|\s)rel="?(?:#{REGEXP_REG_REL_TYPE_PATTERN}+\s)?webmention(?:\s#{REGEXP_REG_REL_TYPE_PATTERN})?"?/.freeze
 
       def initialize(url)
         raise ArgumentError, "url must be a String (given #{url.class.name})" unless url.is_a?(String)
