@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.0.1 / 2018-11-11
+
+- Freeze mutable objects assigned to constants ([018f735](https://github.com/jgarber623/webmention-endpoint-ruby/commit/018f735)).
+- Liberalizes dependency constraints ([1db66fb](https://github.com/jgarber623/webmention-endpoint-ruby/commit/1db66fb)).
+
 ## 2.0.0 / 2018-08-18
 
 - Renames `Webmention::Endpoint::Response` class to `Webmention::Endpoint::Request` ([db485f3](https://github.com/jgarber623/webmention-endpoint-ruby/commit/db485f3)).
