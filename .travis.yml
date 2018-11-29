@@ -1,8 +1,9 @@
 language: ruby
 rvm:
   - 2.4.4
-  - 2.5.1
-cache: bundler
+  - 2.5.3
+cache:
+  - bundler
 before_install:
   - gem install bundler
 before_script:
