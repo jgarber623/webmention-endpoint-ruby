@@ -8,7 +8,7 @@ There are a couple ways you can help improve webmention-endpoint-ruby:
 
 ## Getting Started
 
-webmention-endpoint-ruby is developed using Ruby 2.4.5 and is additionally tested against Ruby 2.5.3 and 2.6.0 using [Travis CI](https://travis-ci.com/jgarber623/webmention-endpoint-ruby).
+webmention-endpoint-ruby is developed using Ruby 2.4.5 and is additionally tested against Ruby 2.5.4 and 2.6.2 using [Travis CI](https://travis-ci.com/jgarber623/webmention-endpoint-ruby).
 
 Before making changes to webmention-endpoint-ruby, you'll want to install Ruby 2.4.5. It's recommended that you use a Ruby version managment tool like [rbenv](https://github.com/rbenv/rbenv), [chruby](https://github.com/postmodern/chruby), or [rvm](https://github.com/rvm/rvm). Once you've installed Ruby 2.4.5 using your method of choice, install the project's gems by running:
 
