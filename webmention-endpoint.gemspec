@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Jason Garber']
   spec.email         = ['jason@sixtwothree.org']
 
-  spec.summary       = 'Discover a URL’s Webmention endpoint.'
+  spec.summary       = 'Deprecated in favor of indieweb-endpoints from 2019-04-25. Discover a URL’s Webmention endpoint.'
   spec.description   = spec.summary
   spec.homepage      = 'https://github.com/jgarber623/webmention-endpoint-ruby'
   spec.license       = 'MIT'
@@ -19,6 +19,18 @@ Gem::Specification.new do |spec|
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(bin|spec)/}) }
 
   spec.require_paths = ['lib']
+
+  spec.post_install_message = <<NOTICE
+
+  +------------------------------------------------------+
+  |                                                      |
+  |  webmention-endpoint is deprecated from 2019-04-25.  |
+  |                                                      |
+  |  Please use the indieweb-endpoints gem instead.      |
+  |                                                      |
+  +------------------------------------------------------+
+
+NOTICE
 
   spec.add_development_dependency 'rake', '~> 12.3'
   spec.add_development_dependency 'rspec', '~> 3.8'

@@ -4,6 +4,7 @@ require:
 
 Metrics/BlockLength:
   Exclude:
+    - webmention-endpoint.gemspec
     - spec/**/*.rb
 
 Metrics/LineLength:

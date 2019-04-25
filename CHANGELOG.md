@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.3 / 2019-04-25
+
+- Add deprecation notice.
+
 ## 2.0.2 / 2019-01-03
 
 - Expand supported Ruby versions to include 2.6 ([4bc127b](https://github.com/jgarber623/webmention-endpoint-ruby/commit/4bc127b)).
